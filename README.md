@@ -56,12 +56,12 @@ class Screwllum:  # ник в честь персонажа из Honkai: Star Ra
 
 <div align="center">
 
-<img src="herta.png" alt="Herta · Honkai: Star Rail" width="240"/>
+<img src="https://raw.githubusercontent.com/phaeton-oq/phaeton-oq/main/herta.png" alt="Herta · Honkai: Star Rail" width="240"/>
 
 <br/><br/>
 
 <a href="https://github.com/torikomi">
-  <img src="favorite-dev.svg" alt="Мой самый любимый разработчик 💜" width="500"/>
+  <img src="https://raw.githubusercontent.com/phaeton-oq/phaeton-oq/main/favorite-dev.svg" alt="Мой самый любимый разработчик 💜" width="500"/>
 </a>
 
 </div>
