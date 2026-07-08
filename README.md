@@ -16,7 +16,7 @@
 <div align="center">
 
 <img
-  src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:1a5e54,50:0d0d12,100:c9a227&text=phaeton-oq&fontColor=dfe9c8&fontSize=60&fontAlignY=38&desc=Beginner%20backend%20developer%20%C2%B7%20Python%20%26%20FastAPI&descSize=16&descAlignY=60&animation=fadeIn"
+  src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:1a5e54,50:0d0d12,100:c9a227&text=phaeton-oq&fontColor=dfe9c8&fontSize=60&fontAlignY=38&desc=Beginner%20backend%20developer%20%C2%B7%20Python%2C%20FastAPI&descSize=16&descAlignY=60&animation=fadeIn"
   alt="header"
 />
 
