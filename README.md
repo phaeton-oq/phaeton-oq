@@ -54,6 +54,18 @@ class Screwllum:  # ник в честь персонажа из Honkai: Star Ra
 - 📚 Учусь и стараюсь писать понятный код.
 - ✉️ Открыт к общению и советам.
 
+<div align="center">
+
+<img src="herta.png" alt="Herta · Honkai: Star Rail" width="240"/>
+
+<br/><br/>
+
+<a href="https://github.com/torikomi">
+  <img src="favorite-dev.svg" alt="Мой самый любимый разработчик 💜" width="500"/>
+</a>
+
+</div>
+
 ---
 
 ## Инструменты
