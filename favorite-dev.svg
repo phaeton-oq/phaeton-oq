@@ -1,0 +1,41 @@
+<svg viewBox="0 0 620 96" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Мой самый любимый разработчик">
+  <defs>
+    <filter id="neon" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="b1"/>
+      <feGaussianBlur in="SourceGraphic" stdDeviation="7" result="b2">
+        <animate attributeName="stdDeviation" values="6;9;6" dur="2.4s" repeatCount="indefinite"/>
+      </feGaussianBlur>
+      <feMerge>
+        <feMergeNode in="b2"/>
+        <feMergeNode in="b1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="border" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c77dff"/>
+      <stop offset="1" stop-color="#7b2fbf"/>
+    </linearGradient>
+  </defs>
+
+  <!-- фон -->
+  <rect x="1.5" y="1.5" width="617" height="93" rx="18"
+        fill="#160f22" stroke="url(#border)" stroke-opacity="0.55" stroke-width="1.5"/>
+
+  <!-- свечение -->
+  <g filter="url(#neon)">
+    <text x="310" y="42" text-anchor="middle"
+          font-family="Segoe UI, Verdana, Geneva, sans-serif" font-size="22" font-weight="700"
+          fill="#b06fff">Мой самый любимый разработчик</text>
+    <path transform="translate(310,64) scale(1.05)"
+          d="M0,-4 C-3,-9 -11,-9 -11,-2 C-11,3 -4,8 0,12 C4,8 11,3 11,-2 C11,-9 3,-9 0,-4 Z"
+          fill="#c77dff"/>
+  </g>
+
+  <!-- чёткое ядро поверх свечения -->
+  <text x="310" y="42" text-anchor="middle"
+        font-family="Segoe UI, Verdana, Geneva, sans-serif" font-size="22" font-weight="700"
+        fill="#f3e6ff">Мой самый любимый разработчик</text>
+  <path transform="translate(310,64) scale(1.05)"
+        d="M0,-4 C-3,-9 -11,-9 -11,-2 C-11,3 -4,8 0,12 C4,8 11,3 11,-2 C11,-9 3,-9 0,-4 Z"
+        fill="#e9c9ff"/>
+</svg>
